@@ -1,0 +1,47 @@
+.weaponViewBox{
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  margin-bottom:30px;
+  overflow: auto;
+  padding:10px;
+}
+
+.weaponImage{
+  height:125px;
+  display:inline-block;
+  margin-left:10px
+}
+
+.weaponInfo{
+  height:175px;
+  display:inline-block;
+  margin:auto;
+}
+
+.CreatureViewBox{
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  margin-bottom:30px;
+  overflow: auto;
+  padding:10px;
+}
+
+.creatureImage{
+  height:125px;
+  display:inline-block;
+  margin-left:10px
+}
+
+.creatureInfo{
+  height:175px;
+  display:inline-block;
+  margin:auto;
+}
+
+.deleteButton{
+  margin: 2px solid red;
+}
+
+deleteButton"

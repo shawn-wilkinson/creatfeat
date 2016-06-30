@@ -1,6 +1,6 @@
 import App from './components/App';
 import React from 'react';
-import Home from './components/Home';
+import Fight from './components/Fight';
 import CreatureCreate from './components/CreatureCreate';
 import Creatures from './components/Creatures';
 import WeaponCreate from './components/WeaponCreate';
@@ -13,7 +13,7 @@ require('isomorphic-fetch');
 render(
   <Router history={browserHistory}>
     <Route path="/" component={App}>
-      <IndexRoute component={Home} />
+      <IndexRoute component={Fight} />
       <Route path="creatureCreate" component={CreatureCreate} />
       <Route path="creatures" component={Creatures} />
       <Route path="weaponCreate" component={WeaponCreate} />

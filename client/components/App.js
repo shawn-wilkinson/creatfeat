@@ -7,14 +7,15 @@ export default class App extends React.Component {
 
     return (
       <div>
-        <h1>Creature Feature!</h1>
-        <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/creatureCreate">New Creature</Link></li>
-          <li><Link to="/creatures">Creatures</Link></li>
-          <li><Link to="/weaponCreate">New Weapon</Link></li>
-          <li><Link to="/weapons">Weapons</Link></li>
-        </ul>
+        <nav className="navbar navbar-light bg-faded">
+          <ul className="nav navbar-nav">
+            <li className="nav-item active"><Link className="nav-link" to="/">Fight</Link></li>
+            <li className="nav-item"><Link className="nav-link" to="/creatureCreate">New Creature</Link></li>
+            <li className="nav-item"><Link className="nav-link" to="/creatures">Creatures</Link></li>
+            <li className="nav-item"><Link className="nav-link" to="/weaponCreate">New Weapon</Link></li>
+            <li className="nav-item"><Link className="nav-link" to="/weapons">Weapons</Link></li>
+          </ul>
+        </nav>
 
 
         {this.props.children}
