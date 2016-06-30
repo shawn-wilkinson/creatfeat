@@ -17,11 +17,15 @@ class FighterInit extends React.Component {
 
   render() {
     return(
-      <div>
-        <h5>Select Fighter I</h5>
-          <Picker key="1" weapons={this.props.weapons} creatures={this.props.creatures} />
-        <h5>Select Fighter II</h5>
-          <Picker key="2" weapons={this.props.weapons} creatures={this.props.creatures} />
+      <div className="row">
+        <div className="col-md-6">
+          <h5>Select Fighter I</h5>
+          <Picker ref="fighter1" key="1" weapons={this.props.weapons} creatures={this.props.creatures} />
+        </div>
+        <div className="col-md-6">
+          <h5>Select Fighter II</h5>
+          <Picker ref="fighter2" key="2" weapons={this.props.weapons} creatures={this.props.creatures} />
+        </div>
       </div>
     );
   }
